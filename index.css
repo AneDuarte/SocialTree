@@ -1,0 +1,84 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.container-social-tree {
+    width: fit-content;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-social-tree .container-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-perfil .foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 10rem;
+    padding: 0.2rem;
+    border: 2px solid #7AB4AD;
+}
+
+.container-perfil .texto-link-perfil {
+    font-size: 17px;
+    margin: 1rem;
+    color: #7AB4AD;
+    font-family: 'Poppins', sans-serif;
+    transition: transform .2s;
+}
+
+.container-perfil .texto-link-perfil:hover {
+    transform: scale(1.1);
+}
+
+
+
+.container-social-tree .container-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-social-tree .container-links .botao-link {
+    width: 325px;
+    height: 50px;
+    color: #7AB4AD;
+    border: 1px solid #7AB4AD;
+    background-color: transparent;
+    margin: 1rem;
+    transition: transform .2s;
+}
+
+.container-social-tree .container-links .botao-link:hover {
+    transform: scale(1.10);
+}
+
+.container-social-tree .container-icones-redes {
+    padding: 0% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-social-tree .container-icones-redes .icone-redes {
+    color: #7AB4AD;
+    width: 20px;
+    height: 20px;
+    transition: transform .2s;
+}
+
+.container-social-tree .container-icones-redes .icone-redes:hover {
+    transform: scale(1.30);
+}
+
+/* adiconar urls */
